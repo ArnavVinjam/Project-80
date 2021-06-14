@@ -19,7 +19,7 @@ function sorting() {
     document.getElementById("Sorted_names").innerHTML = i.toString();
 }
 function Search() {
-    var s = document.getElementById("Search_names").value;
+    var s = document.getElementById("Search_name").value;
     var found = 0;
     var j;
     for(j=0; j < Name_Of_The_Guest_Array.length; j++) {
